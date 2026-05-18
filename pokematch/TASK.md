@@ -4,16 +4,16 @@
 - [x] Inicializar el proyecto en Spring Initializr (Adaptado a Java 21 y Spring Boot 4).
 - [x] Configurar el archivo pom.xml con MapStruct, WebFlux y orden de compilación de Lombok.
 - [x] Crear una clase de configuración para instanciar el WebClient.
-- [ ] Configurar el archivo application.yml (o application.properties) con las propiedades de la base de datos y puertos.
-- [ ] Crear el archivo docker-compose.yml base para levantar PostgreSQL.
+- [x] Configurar el archivo application.yml (o application.properties) con las propiedades de la base de datos y puertos.
+- [x] Crear el archivo docker-compose.yml base para levantar PostgreSQL.
 
 ### 🔌 Capa de Integración (PokeAPI)
-- [ ] Diseñar los DTOs internos para mapear la respuesta JSON nativa de la PokeAPI (solo los campos necesarios: id, name, stats, types, sprites).
-- [ ] Implementar el cliente HTTP (PokeApiClient) para consumir /pokemon/{name_or_id}.
+- [x] Diseñar los DTOs internos para mapear la respuesta JSON nativa de la PokeAPI (solo los campos necesarios: id, name, stats, types, sprites).
+- [x] Implementar el cliente HTTP (PokeApiClient) para consumir /pokemon/{name_or_id}.
 
 ### 🧠 Capa de Negocio Básica & Mapeo
-- [ ] Crear el DTO de salida limpio que consumirá Angular (PokemonDto).
-- [ ] Configurar MapStruct para transformar los DTOs de la PokeAPI al PokemonDto.
+- [x] Crear el DTO de salida limpio que consumirá Angular (PokemonDto).
+- [x] Configurar MapStruct para transformar los DTOs de la PokeAPI al PokemonDto.
 - [ ] Crear el PokemonService para gestionar las búsquedas.
 
 ### ⚡ Optimización (Caché)
