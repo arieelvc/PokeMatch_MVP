@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: pokematch
+
+  # Configuración moderna de Spring Boot 4 para manejo de errores en la API
+  web:
+    error:
+      include-message: always
+
+  # Conexión limpia y aislada a tu PostgreSQL local en el puerto 5433
+  datasource:
+    url: jdbc:postgresql://localhost:5433/pokematchdb
+    username: postgres
+    password: '0307'
+    driver-class-name: org.postgresql.Driver
+
+  # Configuración avanzada de JPA e Hibernate para desarrollo técnico
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        '[format_sql]': true
+        '[use_sql_comments]': true
+
+# Configuración de Logs (Te permitirá ver en consola las peticiones HTTP del WebClient)
+logging:
+  level:
+    '[org.springframework.web.reactive.function.client.WebClient]': DEBUG
