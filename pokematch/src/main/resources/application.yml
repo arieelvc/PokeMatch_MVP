@@ -13,8 +13,8 @@ spring:
   # Conexión limpia y aislada a tu PostgreSQL local en el puerto 5433
   datasource:
     url: jdbc:postgresql://localhost:5433/pokematchdb
-    username: postgres
-    password: '0307'
+    username: admin
+    password: 'supersecurepassword'
     driver-class-name: org.postgresql.Driver
 
   # Configuración avanzada de JPA e Hibernate para desarrollo técnico
