@@ -22,20 +22,20 @@
 
 ### 🚦 Exposición Inicial & Puentes (¡NUEVO!)
 - [x] Crear el controlador PokemonController con el endpoint GET `/api/v1/pokemon/{nameOrId}`.
-- [ ] Configurar una clase WebMvcConfigurer para habilitar CORS (permitir peticiones desde localhost:4200).
+- [x] Configurar una clase WebMvcConfigurer para habilitar CORS (permitir peticiones desde localhost:4200).
 
 ---
 
 ## ⚔️ Fase 2: El Motor de Batalla & SOLID (Días 5-7)
 ### 🧩 Diseño del Patrón Strategy
-- [ ] Crear la interfaz DamageCalculatorStrategy con el método calculateMultiplier.
-- [ ] Crear un Enum o estructura de datos estática con la tabla de efectividad de tipos.
-- [ ] Implementar la clase TypeAdvantageStrategy que resuelva el multiplicador por tipos.
+- [x] Crear la interfaz DamageCalculatorStrategy con el método calculateMultiplier.
+- [x] Crear un Enum o estructura de datos estática con la tabla de efectividad de tipos.
+- [x] Implementar la clase TypeAdvantageStrategy que resuelva el multiplicador por tipos.
 
 ### ⚙️ Servicio de Simulación
-- [ ] Crear el BattleSimulatorService.
-- [ ] Inyectar la estrategia en el servicio y crear la lógica de comparación de estadísticas.
-- [ ] Crear el controlador BattleController con el endpoint `/api/v1/battle/simulate`.
+- [x] Crear el BattleSimulatorService.
+- [x] Inyectar la estrategia en el servicio y crear la lógica de comparación de estadísticas.
+- [x] Crear el controlador BattleController con el endpoint `/api/v1/battle/simulate`.
 
 ### 🧪 Calidad de Código (Testing)
 - [ ] Escribir tests unitarios para TypeAdvantageStrategy (ej: Charizard vs Venusaur).
