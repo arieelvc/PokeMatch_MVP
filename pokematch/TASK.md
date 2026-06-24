@@ -38,8 +38,8 @@
 - [x] Crear el controlador BattleController con el endpoint `/api/v1/battle/simulate`.
 
 ### 🧪 Calidad de Código (Testing)
-- [ ] Escribir tests unitarios para TypeAdvantageStrategy (ej: Charizard vs Venusaur).
-- [ ] Escribir tests unitarios para BattleSimulatorService usando Mockito.
+- [x] Escribir tests unitarios para TypeAdvantageStrategy (ej: Charizard vs Venusaur).
+- [x] Escribir tests unitarios para BattleSimulatorService usando Mockito.
 
 ---
 
